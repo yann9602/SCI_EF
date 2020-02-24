@@ -19,10 +19,10 @@ Class Classe_IAD{
 	    $this->PC_Base = "sci_ef";
 	    $this->PN_ID  = 0;
 		If (1==1){		
-			$this->PC_Host = "db714170336.db.1and1.com";
-			$this->PC_User = "dbo714170336";
-			$this->PC_PW   = "Michel35630";
-			$this->PC_Base = "db714170336";
+			$this->PC_Host = "db5000308770.hosting-data.io";
+			$this->PC_User = "dbu176719";
+			$this->PC_PW   = "ErilDb123&Passwordklj";
+			$this->PC_Base = "dbs301248";
 			$this->PO_ID   = 0;
 		}
 	}
