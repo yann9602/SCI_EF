@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>Nouhie</nom><prenom>Eva</prenom><datenaissance>06/07/1980</datenaissance><situation>M</situation><ressources><salaire>1750</salaire><foncier/></ressources><charges><capacite>1300</capacite><autres/><residenceprincipale>450</residenceprincipale><pensions/></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

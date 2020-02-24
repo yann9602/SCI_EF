@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>DUPRE</nom><prenom>Regis</prenom><datenaissance/><situation/><ressources><salaire/><foncier/></ressources><charges><capacite>250</capacite><autres/><residenceprincipale/><pensions/></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

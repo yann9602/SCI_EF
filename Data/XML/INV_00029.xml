@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>Seur</nom><prenom>Emma</prenom><datenaissance>28/02/2000</datenaissance><situation>C</situation><ressources><salaire>3000</salaire><foncier/></ressources><charges><capacite>1680</capacite><autres>400</autres><residenceprincipale>800</residenceprincipale><pensions>120</pensions></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

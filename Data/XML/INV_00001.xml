@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>Driant</nom><prenom>Michel</prenom><datenaissance>28/05/1980</datenaissance><situation>M</situation><ressources><salaire>3000</salaire><foncier>4000</foncier></ressources><charges><capacite>1000</capacite><autres>1000</autres><residenceprincipale>300</residenceprincipale><pensions>0</pensions></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

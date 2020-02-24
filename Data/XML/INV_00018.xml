@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>BAYARD</nom><prenom>Jean</prenom><datenaissance/><situation/><ressources><salaire>2210</salaire><foncier>1850</foncier></ressources><charges><capacite>4060</capacite><autres/><residenceprincipale/><pensions/></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

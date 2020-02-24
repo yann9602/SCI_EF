@@ -1,0 +1,278 @@
+﻿<html>
+	<head>
+		<title>L'application ERIL : Evaluation de la Rentabilité d'un Investissement Locatif</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" />
+		<meta http-equiv="Expires" CONTENT="0"> 
+		<meta http-equiv="Cache-Control" CONTENT="no-store">
+ 		<meta http-equiv="Pragma" CONTENT="no-cache">
+		<!-- désactivé pour permettre la lecture par les robots
+		<META NAME="ROBOTS" CONTENT="noindex,nofollow"> 
+		<META NAME="ROBOTS" CONTENT="noarchive">
+		<META NAME="ROBOTS" CONTENT="nosnippet">
+		<META NAME="ROBOTS" CONTENT="noodp">
+		<META NAME="ROBOTS" CONTENT="noydir">
+		-->
+
+		<Style>
+			.BlocGauche	{float:left;
+						 width:15%;
+			}
+			.BlocDroite	{float:left;
+						 width:70%;
+			}
+			
+			#content {
+						border-top: solid 10px #294763;
+						border-bottom: solid 10px #294763;
+						padding: 16px;
+			}
+
+			#contentbleuclair {
+							padding: 16px;
+							background-color: #69b6ff;
+							color:black;
+			}
+			
+			img.floatleft {
+							margin-right: 16px;
+							float: left;
+			}
+
+			img.floatright {
+							margin-left: 16px;
+							float: right;
+			}
+						 
+		</Style>
+
+		<Script Language="JavaScript">	
+			function ONGLETS_Select(PC_Onglet)
+			{
+				// cacher
+				
+				document.getElementById("pave_accueil").style.display="none";
+				document.getElementById("pave_eril").style.display="none";
+				document.getElementById("pave_investisseur").style.display="none";
+				document.getElementById("pave_apropos").style.display="none";
+				// afficher
+				document.getElementById(PC_Onglet).style.display="block";
+			}
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78180274-3"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78180274-3"></script>
+		<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-78180274-3');
+		</script>
+
+	</head>
+	<body>
+		<br/>
+		<div>
+		<div id="menu" class='BlocGauche'>
+			
+			<a 	href="javascript:ONGLETS_Select('pave_accueil')">
+				<img src='Images/btn_Accueil.png' width='90%'/>
+			</a>
+			<a 	href="javascript:ONGLETS_Select('pave_eril')">
+				<img src='Images/btn_eril.png' width='90%'/>
+			</a>
+			<a 	href="javascript:ONGLETS_Select('pave_investisseur')">
+				<img src='Images/btn_Investisseur.png' width='90%'/>
+			</a>
+			<a 	href="javascript:ONGLETS_Select('pave_apropos')">
+				<img src='Images/btn_apropos.png' width='90%'/>
+			</a>
+			<a 	href="../SCI_EF_index.php">
+				<img src='Images/btn_Accesclient.png' width='90%'/>
+			</a>
+		</div>
+		<div id="corps" class='BlocDroite'>
+			<!-- balise de reperage ------------------------------->
+			<div id="pave_apropos" style="display:none">
+			<font size=+3>A propos de l'application ERIL</font>
+		        <div id="content">
+					La détermination de la rentabilité d'un investissement (rendement locatif) est un élément majeur dans les décisions que va prendre un investisseur.
+					<b>Un outil informatique performant et pertinent est donc indispendable</b><br>
+					C'est dans ce but que l'application ERIL a été con&ccedil;ue par J&eacute;r&ocirc;me BRIANNE (investisseur expérimenté dans les projets locatifs).<br>
+					Initialement développée sous Excel (ERIL 1.0), puis en VBA (ERIL 2.0), ERIL a été ensuite été reprogrammé en logiciel Windows (ERIL 3.0) afin d'optimiser les performances et les capacités de calculs.<br>
+					Pour pouvoir encore accroitre les capacités de cet outil et afin de permettre son utilisation sur tous type de supports, il s'est avéré nécessaire de convertir ERIL en application Web<br>
+					Michel DRIANT (consultant informatique) c'est donc associé au projet ERIL afin d'assurer que cette nouvelle mutation soit parfaitement orchestrée
+				</div>
+			</div>
+			<!-- balise de reperage ------------------------------->
+			<div id="pave_accueil" >
+				<font size=+3>Bienvenue sur le site de l'application ERIL</font><br>Evaluation de la Rentabilite d'un Investissement Locatif</font><br>
+				
+					<div id="content">
+						<font size=+2>ERIL : Le secret de votre reussite !</font><br>
+						<p align="justify">Nombreux sont ceux qui se lancent dans l'aventure d'un investissement locatif en pensant que c'est un investissement s&ucirc;r, que la pierre est une valeur refuge et que rien de grave ne peut leur arriver dans leur projet immobilier.<br>
+						Pourtant réaliser un investissement qui réponde aux obectifs de l'investisseur n'est pas une chose aussi aisée que cela ne peut y parraitre. De nombreux crit&egrave;res et plusieurs variables doivent &egrave;tre prises en compte.</p>
+					
+					<br>
+					<br>
+					<font size=+2>ERIL pour vous accompagner !</font>
+					<br>
+					<table>
+						<tr>
+							<td>
+								<img src="images/presentation/icone_eril.png" alt="logo_eril" />
+							</td>
+							<td>
+								<p align="justify">Le logiciel ERIL permet d'intégrer toutes les variables et de réaliser une étude prenant en compte l'ensemble des flux financiers afférent à un investissement locatif afin de permettre à l'investisseur d'avoir une vision la plus réaliste et la plus objective de la rentabilité que pourra lui offrir son projet.</p>
+							</td>		
+						</tr>
+					</table>
+				</div>
+			</div>
+			<!-- balise de reperage ------------------------------->
+			<div id="pave_eril" style="display:none">
+			<font size=+3>L'application ERIL</font>
+					<div id="content">					
+					<font size=+2>Analysez efficacement la rentabilité d'un investissement locatif :</font><br>
+					<p align="justify"><b>Notre logiciel vous permet d'évaluer facilement et efficacement la rentabilité d'un projet d'investissement locatif</b></p><br>
+					<br>
+					<br>
+					<font size=+2>Un outil complet !</font>
+					<table>
+					<tr>
+						<td>
+							<img	 src="images//presentation/image_menu.png" alt="menu_eril" />
+						</td>
+						<td>
+							<p align="justify">Grâce à notre logiciel vous pouvez intégrer toutes les caractéristiques de votre projet pour analyser sa rentabilité et ainsi garantir la réussite de votre investissement.</p><br>
+							<br><br><br>
+							<font size=+2>Intégrez toutes les caractéristiques de votre projet</font><br>
+							<p align="justify">Vous le savez, il ne faut rien négliger lors d'un investissement immobilier. Notre logiciel vous permet de passer en revue tous les param&egrave;tres qui vous permettons d'apprécier la rentabilité de votre investissement</p><br><br>
+							
+							<font size=+2>Une infinité de scénarios d'investissement facilement accessibles pour des résultats immédiats !</font><br>
+							<p align="justify">Grace à notre logiciel vous avez la possibilité de modifier tr&egrave;s facilement chacune des caractéristiques de votre projet et d'en apprécier les opportunités instantanément.</p><br><br><br>
+						</td>
+					</tr>
+					</table>
+					<table bgcolor="#69b6ff">
+					<tr>
+						<td colspan="2">
+							<font size=+2>Accessible sur toutes les plateformes </font>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p align="justify">Notre application Web est accessible depuis tous types de supports : ordinateurs, tablettes et m&ecirc;me smartphones. Vous aurez ainsi la possibilité de calculer tr&egrave;s facilement la faisabilité d'un projet, sans un détour par le bureau !</p>
+						</td>
+						<td>
+							<img src="images//presentation/image_multiplateforme.png" class="floatright" alt="" /><br>
+						</td>
+					</tr>
+					</table>
+						
+					<br>
+						
+					<table>
+					<tr>
+						<td colspan = "2">
+							<font size=+2>Des graphiques et des fiches synthétiques pour des résultats pertinents</font>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<img src="images//presentation/image_treso.png" alt="graphique_tresorerie" />
+						</td>
+					
+						<td>
+						<p align="justify">Les résultats de vos études sont disponibles sous forme de fiches synthétiques et des graphiques pour vous permettre de vérifier que votre projet réponde parfaitement à vos objectifs.
+						De plus, ces documents de synth&egrave;se peuvent facilement &ecirc;tre imprimés afin de vous épauler dans la recherche d'un financement.</p>
+						</td>
+					</tr>
+					</table>
+					<br>
+					<table bgcolor="#69b6ff">
+					<tr>
+						<td colspan="2">
+						<font size=+2>Adapté aux investisseurs et aux professionnels </font>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<p align="justify">
+							Notre logiciel est conçu pour répondre parfaitement à vos besoins : <br>
+							<li>Particuliers, vous aimeriez développer votre patrimoine et préparer votre retraite ? Notre outil vous permet de d'évaluer facilement le respect de vos objectifs</li>
+							<li>Agent immobilier, gr&acirc;ce à notre logiciel, vous pourrez mieux orienter vos prospections et proposer de nouvelles prestations à vos clients !</li>
+							<li>Un agent comptable, vous pouvez d&egrave;s à présent proposer des services encore plus efficaces et plus rapide à vos clients</li>
+						</p>
+						</td>
+						<td>
+						<img src="images//presentation/image_perso.png" class="floatright" alt="" />
+						</td>
+					</tr>
+					</table>
+					</div>
+			</div> 
+			<!----------------------------------------------------->
+			<div id="pave_investisseur" style="display:none" >
+					<font size=+3>L'investissement locatif</font>
+					<div id="content">
+					<font size=+2>L'investissement locatif, c'est quoi exactement ?</font><br>
+					Un investissement locatif est un projet à part enti&egrave;re, tr&egrave;s complet. Cela concerne tout bien immobilier qui peut &ecirc;tre loué à un tiers.<br>
+					Le bien immobilier peut &ecirc;tre neuf ou ancien, qui peut aussi bien &ecirc;tre un appartement, une maison, ou encore une cave, un parking, un local commercial mais aussi un immeuble composé de plusieurs lots.
+				<br>
+					<table bgcolor="#69b6ff">
+					<tr>
+						<td colspan="2">
+					<font size=+2>Pourquoi investir dans l'immobilier locatif ?</font>
+					</td>
+					</tr>
+					<tr>
+					<td>
+					<p align="justify">
+					<b>Investir dans la pierre reste l'un des placement les plus s&ucirc;r permettant de répondre à plusieurs objectifs : </b><br>
+					Parmis les différents objectifs auxquels peut répondre un investissement, on peut retrouver les suivants :</p>
+					
+					<li>Développer des revenus complémentaires (revenus passifs)</li>
+					<li>Préparer votre retraite</li>
+					<li>Transmettre et/ou développer votre patrimoine</li>
+					<li>Réduire sa fiscalité</li>
+					<li>Préparer le financement des études des enfants</li><br>
+					<p align="justify">L'investissement immobilier locatif constitue également une solution parfaitement adaptée dans une optique de diversification du patrimoine.<br>
+					<br>
+					Il faut également ajouter que les probl&egrave;mes liés à la conjoncture (baisse de taux d'intérets de placements, discussion du pouvoir d'achat, hausse de la volatilité des marchés financiers) impactent moins l'immobilier que d'autres secteurs.<br>
+					En effet, quoi qu'il se passe, les habitants d'une ville auront toujours besoin d'un toit sur le t&ecirc;te.<br>
+					La pyramide de Maslow place le besoin de sécurité d&egrave;s le second rang des besoins de l'Homme. Proposer un logement permet de répondre parfaitement à ce besoin.
+					</p>
+					</td>
+					<td>
+					<img src="images/presentation/levier.png" class="floatright" alt="" />
+					</td>
+					</tr>
+					</table>
+					<br>
+					<table>
+					<tr>
+						<td colspan="2">
+						<font size=+2>Et la rentabilité du projet ?</font>
+						</td>
+					</tr>
+					<tr>
+					<td>
+					<img src="images/presentation/calcul.jpg" alt="calcul_rendement" />
+					</td>
+					<td>
+					<p align="justify">
+					L'analyse du rendement locatif (c'est à dire, la rentabilité d'un projet d'investissement locatif), pour &ecirc;tre pertinant, doit intégrer de nombreux param&egrave;tres  et un nombre important de type de variables, dont certaines sont calculées en cascade, en fonction des autres.<br>
+					Egalement, l'investisseur peut rev&ecirc;tir différents statuts en fonction de son projet et des ses objectifs.<br>
+					Ainsi, afin d'éviter de recommencer une quantité important de calculs fastidieux, l'utilisation d'un programme informatique est donc primordial. C'est exactement les fonctionalitées proposé par <b>l'application ERIL</b></br>
+					</p>
+					</td>
+					</tr>
+					</table>
+					</div>
+			</div> 
+		</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>Martin</nom><prenom>Pierre</prenom><datenaissance>22/05/1970</datenaissance><situation>C</situation><ressources><salaire>1800</salaire><foncier>0</foncier></ressources><charges><capacite/><autres>220</autres><residenceprincipale>500</residenceprincipale><pensions/></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

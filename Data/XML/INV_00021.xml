@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>MORGADES</nom><prenom>Christophe</prenom><datenaissance/><situation/><ressources><salaire>1650</salaire><foncier>1200</foncier></ressources><charges><capacite>800</capacite><autres>1200</autres><residenceprincipale>850</residenceprincipale><pensions/></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

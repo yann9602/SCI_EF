@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>Salisse</nom><prenom>Thomas</prenom><datenaissance/><situation/><ressources><salaire>1250</salaire><foncier>850</foncier></ressources><charges><capacite>1350</capacite><autres>750</autres><residenceprincipale/><pensions/></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root><investisseur><nom>MORGEAN</nom><prenom>Henry</prenom><datenaissance/><situation/><ressources><salaire>5850</salaire><foncier>1520</foncier></ressources><charges><capacite>3290</capacite><autres>1520</autres><residenceprincipale>2560</residenceprincipale><pensions/></charges><fiscalite><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode><periode><parts/><delai/></periode></fiscalite></investisseur></root>
